@@ -1,0 +1,27 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "SashaPudka",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@eslint/js": "^9.9.0",
+    "eslint": "^8.57.0",
+    "globals": "^15.9.0"
+  },
+  "dependencies": {
+    "core-js": "^3.38.0"
+  }
+}
